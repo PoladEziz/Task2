@@ -15,7 +15,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: blue;
 }
 
 .top_box h1 {
