@@ -14,19 +14,13 @@
   padding-right: 344px;
 }
 
-.top_box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-}
-
-.top_box h1 {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 55px;
+.page-1 h1 {
+  margin-bottom: 133px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
 }
 .page-1 ul {
   width: 100%;
@@ -62,9 +56,15 @@
   line-height: 130%;
 }
 
+
+.page-1 h1 {
+  width: 100%;
+}
+
 .page-2 {
   margin-top: 168px;
   width: 100%;
+
 }
 
 .page-2 h1 {

@@ -7,42 +7,41 @@
 }
 
 .main {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding-left: 124px;
+}
+
+.page-1 {
   padding-top: 162px;
+  padding-left: 124px;
   padding-right: 344px;
 }
 
-.top_box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
-}
-
-.top_box h1 {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 55px;
+.page-1 h1 {
+  margin-bottom: 133px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
 }
 .page-1 ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background-color: #1e4681;
 }
 .page-1 ul li {
   list-style-type: none;
 }
-.page-1 li:nth-child(1) {
+li:nth-child(1) {
   width: 223px;
 }
-.page-1 li:nth-child(2) {
+li:nth-child(2) {
   width: 260px;
 }
-.page-1 li:nth-child(3) {
+li:nth-child(3) {
   width: 232px;
 }
 .page-1 ul li h2 {
@@ -62,13 +61,23 @@
   line-height: 130%;
 }
 
-.page-2 {
-  margin-top: 168px;
+.top_child {
+  display: flex;
+  flex-direction: row;
   width: 100%;
 }
 
-.page-2 h1 {
-  margin-bottom: 62px;
+.page-1 h1 {
+  width: 100%;
+}
+
+.bot_box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bot_box h1 {
   font-family: Roboto Slab;
   font-size: 55px;
   font-weight: 700;
@@ -76,7 +85,7 @@
   text-align: left;
 }
 
-.page-2 ul li {
+.bot_box ul li {
   font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
