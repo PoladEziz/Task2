@@ -57,8 +57,17 @@
 }
 
 .page-2 {
+  width: 100%;
+}
+
+.page-1 h1 {
+  width: 100%;
+}
+
+.page-2 {
   margin-top: 168px;
   width: 100%;
+
 }
 
 .page-2 h1 {

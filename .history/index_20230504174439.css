@@ -7,6 +7,7 @@
 }
 
 .main {
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   padding-left: 124px;
@@ -57,17 +58,33 @@
 }
 
 .page-2 {
-  margin-top: 168px;
+  display: flex;
+  flex-direction: row;
   width: 100%;
 }
 
+.page-1 h1 {
+  width: 100%;
+}
+
+.page-2 {
+    margin-top: 168px;
+    background-color: violet;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .page-2 h1 {
-  margin-bottom: 62px;
+    margin-bottom: 62px;
   font-family: Roboto Slab;
   font-size: 55px;
   font-weight: 700;
   line-height: 56px;
   text-align: left;
+}
+.page-2 ul{
+    background-color: aquamarine;
 }
 
 .page-2 ul li {

@@ -7,6 +7,7 @@
 }
 
 .main {
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
   padding-left: 124px;
@@ -30,13 +31,13 @@
 .page-1 ul li {
   list-style-type: none;
 }
-.page-1 li:nth-child(1) {
+li:nth-child(1) {
   width: 223px;
 }
-.page-1 li:nth-child(2) {
+li:nth-child(2) {
   width: 260px;
 }
-.page-1 li:nth-child(3) {
+li:nth-child(3) {
   width: 232px;
 }
 .page-1 ul li h2 {
@@ -57,18 +58,32 @@
 }
 
 .page-2 {
-  margin-top: 168px;
+  display: flex;
+  flex-direction: row;
   width: 100%;
 }
 
+.page-1 h1 {
+  width: 100%;
+}
+
+.page-2 {
+    margin-top: 168px;
+    background-color: violet;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .page-2 h1 {
-  margin-bottom: 62px;
+    margin-bottom: 62px;
   font-family: Roboto Slab;
   font-size: 55px;
   font-weight: 700;
   line-height: 56px;
   text-align: left;
 }
+.page
 
 .page-2 ul li {
   font-family: Roboto;
