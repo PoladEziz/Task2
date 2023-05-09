@@ -14,37 +14,37 @@
   padding-right: 344px;
 }
 
-.top_box {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
+.page-1 h1 {
+  margin-bottom: 133px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
 }
 
-.top_box h1 {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 55px;
-}
 .page-1 ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .page-1 ul li {
   list-style-type: none;
 }
+
 .page-1 li:nth-child(1) {
   width: 223px;
 }
+
 .page-1 li:nth-child(2) {
   width: 260px;
 }
+
 .page-1 li:nth-child(3) {
   width: 232px;
 }
+
 .page-1 ul li h2 {
   font-family: "Roboto";
   font-style: normal;
@@ -82,4 +82,102 @@
   font-weight: 400;
   line-height: 36px;
   text-align: left;
+}
+
+@media only screen and (max-width: 1280px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 63px;
+    padding-top: 93 px;
+    padding-right: 480px;
+  }
+  .main .page-1 h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+
+  .main .page-1 .top_child ul li h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 130%;
+    margin-bottom: 0;
+  }
+
+  .main .page-1 .top_child ul li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+  }
+
+  .main .page-2 h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+
+  .main .page-2 ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main .page-1 h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 101.38%;
+  }
+
+  .main .page-1 .top_child ul {
+    flex-direction: column;
+  }
+  .main .page-1 .top_child ul li {
+    margin-bottom: 35px;
+  }
+  .main .page-1 .top_child ul li h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 130%;
+  }
+
+  .main .page-1 .top_child ul li p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+  }
+
+  .main .page-2 h1 {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+
+  .main .page-2 ul li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+  }
 }
